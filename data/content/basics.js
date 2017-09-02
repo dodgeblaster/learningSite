@@ -1,4 +1,5 @@
 const htmlBasics = {
+    ready: true,
     number: '1',
     name: 'HTML Basics',
     slideshow: 'https://docs.google.com/presentation/d/1peUHXBMunTooH0323bC37DlJ_yaVtM9dCBw3Yjq8TH8/embed?start=false&loop=false&delayms=3000',
@@ -16,6 +17,7 @@ const htmlBasics = {
 }
 
 const htmlElements = {
+    ready: true,
     number: '2',
     name: 'HTML Elements',
     slideshow: 'https://docs.google.com/presentation/d/1PXdq9qoC9F84t6JUOTw_b6Ios1U1jJmQx01WHCgbUIM/embed?start=false&loop=false&delayms=3000',
@@ -33,6 +35,7 @@ const htmlElements = {
 }
 
 const cssBasics = {
+    ready: true,
     number: '3',
     name: 'CSS Basics',
     slideshow: 'https://docs.google.com/presentation/d/1thxP0oEYmFpeACoNDx88nKc0Oq3WsjwoTZTRAvPDyeg/embed?start=false&loop=false&delayms=3000',
@@ -61,6 +64,7 @@ const cssBasics = {
 }
 
 const cssFont = {
+    ready: true,
     number: '4',
     name: 'CSS Font',
     slideshow: 'https://docs.google.com/presentation/d/1hDBAVHZxvYlixH8_29E0HpvMRHrwJAsgbYqthxMAUvo/embed?start=false&loop=false&delayms=3000',
@@ -81,6 +85,7 @@ const cssFont = {
 }
 
 const cssColor = {
+    ready: true,
     number: '5',
     name: 'CSS Color',
     slideshow: 'https://docs.google.com/presentation/d/1hDBAVHZxvYlixH8_29E0HpvMRHrwJAsgbYqthxMAUvo/embed?start=false&loop=false&delayms=3000',

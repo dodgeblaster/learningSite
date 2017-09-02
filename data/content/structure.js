@@ -1,4 +1,5 @@
 const unitsAndMeasurements = {
+    ready: false,
     number: '6',
     name: 'Units and Measurements',
     slideshow: '',
@@ -16,6 +17,7 @@ const unitsAndMeasurements = {
 }
 
 const boxModel = {
+    ready: false,
     number: '7',
     name: 'Box Model',
     slideshow: 'https://docs.google.com/presentation/d/1FXRpCBZ92A5XQkTIbXCcsOCb9t62cdWpBsSzFVWunVk/embed?start=false&loop=false&delayms=3000',
@@ -34,6 +36,7 @@ const boxModel = {
 }
 
 const displayType = {
+    ready: false,
     number: '8',
     name: 'Display Type',
     slideshow: '',
@@ -51,6 +54,7 @@ const displayType = {
 }
 
 const positioning = {
+    ready: false,
     number: '9',
     name: 'Positioning',
     slideshow: '',
@@ -68,6 +72,7 @@ const positioning = {
 }
 
 const images = {
+    ready: false,
     number: '10',
     name: 'Images',
     slideshow: 'https://docs.google.com/presentation/d/1sIaVn2izbxuHh74Xq7kCQ0S4EsgGSxcCgDklrwYSBZI/embed?start=false&loop=false&delayms=3000',

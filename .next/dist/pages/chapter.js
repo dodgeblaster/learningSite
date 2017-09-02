@@ -85,6 +85,23 @@ var renderExercise = function renderExercise(x) {
     }, x.exercise) : '';
 };
 
+var renderContent = function renderContent(chapter) {
+    return _react2.default.createElement('div', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16
+        }
+    }, renderSlideshow(chapter), renderNotes(chapter), renderCode(chapter), renderResources(chapter), renderExercise(chapter));
+};
+
+var renderNotReadyYet = function renderNotReadyYet() {
+    return _react2.default.createElement(_Section2.default, { title: 'Chapter content coming soon', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+        }
+    });
+};
+
 exports.default = function (_ref) {
     var url = _ref.url;
 
@@ -101,37 +118,37 @@ exports.default = function (_ref) {
     return _react2.default.createElement(_Page2.default, {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 21
+            lineNumber: 36
         }
     }, _react2.default.createElement(_NavBar2.default, {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 22
+            lineNumber: 37
         }
     }), _react2.default.createElement('div', { style: style.mainContainer, __source: {
             fileName: _jsxFileName,
-            lineNumber: 24
+            lineNumber: 39
         }
     }, _react2.default.createElement('div', { style: style.sidebarContainer, __source: {
             fileName: _jsxFileName,
-            lineNumber: 25
+            lineNumber: 40
         }
     }, _react2.default.createElement(_SideBar2.default, { sections: _sections2.default, __source: {
             fileName: _jsxFileName,
-            lineNumber: 26
+            lineNumber: 41
         }
     })), _react2.default.createElement('div', { style: style.contentContainer, __source: {
             fileName: _jsxFileName,
-            lineNumber: 29
+            lineNumber: 44
         }
     }, _react2.default.createElement(_Hero2.default, {
         section: sectionName,
         chapter: chapter.number + '. ' + chapter.name,
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 30
+            lineNumber: 45
         }
-    }), renderSlideshow(chapter), renderNotes(chapter), renderCode(chapter), renderResources(chapter), renderExercise(chapter))));
+    }), chapter.ready ? renderContent(chapter) : renderNotReadyYet())));
 };
 
 var style = {

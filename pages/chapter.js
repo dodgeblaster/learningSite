@@ -12,6 +12,21 @@ const renderCode        = x => x.code       ? <Section title={'Code'}><a href={ 
 const renderResources   = x => x.resources  ? <Section title={'Resources'}>{ x.resources }</Section> : ''
 const renderExercise    = x => x.exercise   ? <Section title={'Exercise'}>{ x.exercise }</Section> : ''
 
+const renderContent = chapter => (
+    <div>
+        { renderSlideshow(chapter) }
+        { renderNotes(chapter) }
+        { renderCode(chapter) }
+        { renderResources(chapter) }
+        { renderExercise(chapter) }
+    </div>
+)
+
+const renderNotReadyYet = () => (
+    <Section title={'Chapter content coming soon'}>
+    </Section>
+)
+
 export default ({url}) => {
     const sectionName   = sections.find(x => x.name === url.query.section).name
     const chapters      = sections.find(x => x.name === url.query.section).chapters
@@ -31,11 +46,7 @@ export default ({url}) => {
                     section={sectionName}
                     chapter={`${chapter.number}. ${chapter.name}`}
                 />
-                { renderSlideshow(chapter) }
-                { renderNotes(chapter) }
-                { renderCode(chapter) }
-                { renderResources(chapter) }
-                { renderExercise(chapter) }
+                { chapter.ready ? renderContent(chapter) : renderNotReadyYet() }
             </div>
         </div>
     </Page>
