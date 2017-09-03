@@ -78,10 +78,10 @@ const images = {
     slideshow: 'https://docs.google.com/presentation/d/1sIaVn2izbxuHh74Xq7kCQ0S4EsgGSxcCgDklrwYSBZI/embed?start=false&loop=false&delayms=3000',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/6-html-images.html',
     resources: (
-        <div>
-            <h2 style={{marginTop: '20px'}}>Landing Page Code</h2>
-            <a href="https://github.com/dodgeblaster/landing-page">Click Here</a>
-        </div>
+        <ul>
+            <li><a href="https://github.com/dodgeblaster/landing-page">Landing Page Code</a></li>
+            <li><a href="https://material.io/guidelines/style/imagery.html#imagery-ui-integration">Google Guidelines on Images</a></li>
+        </ul>
     ),
     exercise: (
         <div>

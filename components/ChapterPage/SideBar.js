@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const renderLink = (chapter, section) => (
-    <Link href={{ pathname: '/chapter', query: { section: section, chapter: chapter.number }}}>
+    <Link href={{ pathname: chapter.url ? chapter.url : '/chapter', query: { section: section, chapter: chapter.number }}}>
         <a
             href={chapter.link}
             style={style.link}>

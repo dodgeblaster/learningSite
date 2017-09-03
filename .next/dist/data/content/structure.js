@@ -106,20 +106,30 @@ var images = {
     name: 'Images',
     slideshow: 'https://docs.google.com/presentation/d/1sIaVn2izbxuHh74Xq7kCQ0S4EsgGSxcCgDklrwYSBZI/embed?start=false&loop=false&delayms=3000',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/6-html-images.html',
-    resources: _react2.default.createElement('div', {
+    resources: _react2.default.createElement('ul', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 81
         }
-    }, _react2.default.createElement('h2', { style: { marginTop: '20px' }, __source: {
+    }, _react2.default.createElement('li', {
+        __source: {
             fileName: _jsxFileName,
             lineNumber: 82
         }
-    }, 'Landing Page Code'), _react2.default.createElement('a', { href: 'https://github.com/dodgeblaster/landing-page', __source: {
+    }, _react2.default.createElement('a', { href: 'https://github.com/dodgeblaster/landing-page', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 82
+        }
+    }, 'Landing Page Code')), _react2.default.createElement('li', {
+        __source: {
             fileName: _jsxFileName,
             lineNumber: 83
         }
-    }, 'Click Here')),
+    }, _react2.default.createElement('a', { href: 'https://material.io/guidelines/style/imagery.html#imagery-ui-integration', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 83
+        }
+    }, 'Google Guidelines on Images'))),
     exercise: _react2.default.createElement('div', {
         __source: {
             fileName: _jsxFileName,

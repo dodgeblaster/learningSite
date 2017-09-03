@@ -43,9 +43,9 @@ const cssBasics = {
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/3-css-basics.html',
     resources: (
         <div>
-            <h2>CSS Reset URL</h2>
+            <strong>CSS Reset URL</strong>
             <p>Search 'css reset cdn' in google, and look for a CDN site hosting it</p>
-            <h2>Base CSS URL</h2>
+            <strong>Base CSS URL</strong>
             <p>https://rawgit.com/dodgeblaster/basecss/master/base.css</p>
         </div>
     ),
@@ -72,8 +72,13 @@ const cssFont = {
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/4-css-font-and-color.html',
     resources: (
         <ul>
-            <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+            <li><a href='https://fonts.google.com/'>Google Fonts</a></li>
+            <li><a href='https://www.jimdo.com/blog/a-simple-guide-to-google-web-fonts/'>Web Font Article</a></li>
+            <li><a href='http://femmebot.github.io/google-type/'>Font Pairing Examples</a></li>
+            <li><a href='http://fontpair.co/'>More Font Pairing Examples</a></li>
+
         </ul>
+
     ),
     exercise: (
         <div>
@@ -97,12 +102,15 @@ const cssColor = {
             <li><a href="https://dribbble.com/">Dribbble</a></li>
             <li><a href="https://www.behance.net">Behance</a></li>
             <li><a href="http://colorsupplyyy.com/">Color Supply</a></li>
-            <li><a href="../../img/colorexample.pdf">Color Example PDF</a></li>
+            <li><a href="/static/colorpdf.pdf">Color Example PDF</a></li>
+            <li><a href="https://material.io/guidelines/style/color.html#">Material Design Color</a></li>
+
+
         </ul>
     ),
     exercise: (
         <div>
-            <h2>Assignment: Font and Color - 10%</h2>
+            <strong>Assignment: Font and Color - 10%</strong>
             <p>Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:</p>
             <ul>
                 <li>Sophisticated</li>
@@ -113,14 +121,26 @@ const cssColor = {
             </ul>
             <br/>
 
-            <p>I will be giving 5 points for each page:</p>
+            <p>You must specify what strategy you are using for color. Here are the options:</p>
+
+            <ul>
+                <li>One Color</li>
+                <li>Analogous</li>
+                <li>Complementary</li>
+                <li>Split Complementary</li>
+                <li>Triad</li>
+                <li>Material Design</li>
+            </ul>
+            <br/>
+
+            <p>I will be giving 5 points for each page for a total of 25 points:</p>
 
             <ul>
                 <li>1 - Is the HTML and CSS properly indented </li>
                 <li>2 - Do all the links work on the page</li>
                 <li>3 - Are the fonts properly imported </li>
                 <li>4 - Is the font easy to read</li>
-                <li>5 - Are the colors put together in such a way that the text is easy to read </li>
+                <li>5 - Are you using one of the strategies we went over for color</li>
             </ul>
         </div>
     )

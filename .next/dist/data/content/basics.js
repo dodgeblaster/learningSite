@@ -69,7 +69,7 @@ var cssBasics = {
             fileName: _jsxFileName,
             lineNumber: 45
         }
-    }, _react2.default.createElement('h2', {
+    }, _react2.default.createElement('strong', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 46
@@ -79,7 +79,7 @@ var cssBasics = {
             fileName: _jsxFileName,
             lineNumber: 47
         }
-    }, 'Search \'css reset cdn\' in google, and look for a CDN site hosting it'), _react2.default.createElement('h2', {
+    }, 'Search \'css reset cdn\' in google, and look for a CDN site hosting it'), _react2.default.createElement('strong', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 48
@@ -154,16 +154,43 @@ var cssFont = {
             fileName: _jsxFileName,
             lineNumber: 75
         }
-    }, 'Google Fonts'))),
+    }, 'Google Fonts')), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 76
+        }
+    }, _react2.default.createElement('a', { href: 'https://www.jimdo.com/blog/a-simple-guide-to-google-web-fonts/', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 76
+        }
+    }, 'Web Font Article')), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77
+        }
+    }, _react2.default.createElement('a', { href: 'http://femmebot.github.io/google-type/', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77
+        }
+    }, 'Font Pairing Examples')), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 78
+        }
+    }, _react2.default.createElement('a', { href: 'http://fontpair.co/', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 78
+        }
+    }, 'More Font Pairing Examples'))),
     exercise: _react2.default.createElement('div', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 79
+            lineNumber: 84
         }
     }, _react2.default.createElement('p', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 85
         }
     }, 'None for this one.'))
 };
@@ -178,140 +205,194 @@ var cssColor = {
     resources: _react2.default.createElement('ul', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 100
         }
     }, _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 101
         }
     }, _react2.default.createElement('a', { href: 'https://color.adobe.com/create/color-wheel/?copy=true&base=1&rule=Monochromatic&selected=1&name=Copy%20of%20Flat%20UI&mode=rgb&rgbvalues=0.0673647392217112,0.2640767183182476,0.45098039215686275,0.14205173270665186,0.5568574277580438,0.9509803921568627,0.43101720645640573,0.7018354343723179,0.9591503267973855,0.20265885686877005,0.3299941735719928,0.45098039215686275,0.11217693531267557,0.43974514398212516,0.7509803921568625&swatchOrder=0,2,1,3,4', __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 101
         }
     }, 'Kuler')), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 97
+            lineNumber: 102
         }
     }, _react2.default.createElement('a', { href: 'https://dribbble.com/', __source: {
             fileName: _jsxFileName,
-            lineNumber: 97
+            lineNumber: 102
         }
     }, 'Dribbble')), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 98
+            lineNumber: 103
         }
     }, _react2.default.createElement('a', { href: 'https://www.behance.net', __source: {
             fileName: _jsxFileName,
-            lineNumber: 98
+            lineNumber: 103
         }
     }, 'Behance')), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 99
+            lineNumber: 104
         }
     }, _react2.default.createElement('a', { href: 'http://colorsupplyyy.com/', __source: {
             fileName: _jsxFileName,
-            lineNumber: 99
+            lineNumber: 104
         }
     }, 'Color Supply')), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 100
+            lineNumber: 105
         }
-    }, _react2.default.createElement('a', { href: '../../img/colorexample.pdf', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 100
-        }
-    }, 'Color Example PDF'))),
-    exercise: _react2.default.createElement('div', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 104
-        }
-    }, _react2.default.createElement('h2', {
-        __source: {
+    }, _react2.default.createElement('a', { href: '/static/colorpdf.pdf', __source: {
             fileName: _jsxFileName,
             lineNumber: 105
         }
-    }, 'Assignment: Font and Color - 10%'), _react2.default.createElement('p', {
+    }, 'Color Example PDF')), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 106
         }
-    }, 'Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:'), _react2.default.createElement('ul', {
-        __source: {
+    }, _react2.default.createElement('a', { href: 'https://material.io/guidelines/style/color.html#', __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
+            lineNumber: 106
         }
-    }, _react2.default.createElement('li', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 108
-        }
-    }, 'Sophisticated'), _react2.default.createElement('li', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 109
-        }
-    }, 'Energetic'), _react2.default.createElement('li', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 110
-        }
-    }, 'Relaxed'), _react2.default.createElement('li', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 111
-        }
-    }, 'Corporate'), _react2.default.createElement('li', {
+    }, 'Material Design Color'))),
+    exercise: _react2.default.createElement('div', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 112
         }
-    }, 'Fun')), _react2.default.createElement('br', {
+    }, _react2.default.createElement('strong', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 113
+        }
+    }, 'Assignment: Font and Color - 10%'), _react2.default.createElement('p', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 114
         }
-    }), _react2.default.createElement('p', {
+    }, 'Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:'), _react2.default.createElement('ul', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
-        }
-    }, 'I will be giving 5 points for each page:'), _react2.default.createElement('ul', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
+            lineNumber: 115
         }
     }, _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
+            lineNumber: 116
+        }
+    }, 'Sophisticated'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 117
+        }
+    }, 'Energetic'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 118
+        }
+    }, 'Relaxed'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
             lineNumber: 119
         }
-    }, '1 - Is the HTML and CSS properly indented '), _react2.default.createElement('li', {
+    }, 'Corporate'), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 120
         }
-    }, '2 - Do all the links work on the page'), _react2.default.createElement('li', {
-        __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-        }
-    }, '3 - Are the fonts properly imported '), _react2.default.createElement('li', {
+    }, 'Fun')), _react2.default.createElement('br', {
         __source: {
             fileName: _jsxFileName,
             lineNumber: 122
         }
+    }), _react2.default.createElement('p', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 124
+        }
+    }, 'You must specify what strategy you are using for color. Here are the options:'), _react2.default.createElement('ul', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 126
+        }
+    }, _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 127
+        }
+    }, 'One Color'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 128
+        }
+    }, 'Analogous'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 129
+        }
+    }, 'Complementary'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 130
+        }
+    }, 'Split Complementary'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131
+        }
+    }, 'Triad'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 132
+        }
+    }, 'Material Design')), _react2.default.createElement('br', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 134
+        }
+    }), _react2.default.createElement('p', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 136
+        }
+    }, 'I will be giving 5 points for each page for a total of 25 points:'), _react2.default.createElement('ul', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 138
+        }
+    }, _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 139
+        }
+    }, '1 - Is the HTML and CSS properly indented '), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 140
+        }
+    }, '2 - Do all the links work on the page'), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 141
+        }
+    }, '3 - Are the fonts properly imported '), _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 142
+        }
     }, '4 - Is the font easy to read'), _react2.default.createElement('li', {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 123
+            lineNumber: 143
         }
-    }, '5 - Are the colors put together in such a way that the text is easy to read ')))
+    }, '5 - Are you using one of the strategies we went over for color')))
 };
 
 exports.default = {

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var intro = {
     name: 'Intro',
     color: '#FD306F',
-    chapters: [{ number: 'A', name: 'Introduction', ready: false }, { number: 'B', name: 'Things We Need', ready: false }, { number: 'C', name: 'Assignments', ready: false }, { number: 'D', name: 'Resources', ready: false }, { number: 'E', name: 'Extra Help', ready: false }]
+    chapters: [{ number: 'A', name: 'Introduction', url: '/intro/introduction', ready: true }, { number: 'B', name: 'Things We Need', url: '/intro/thingsWeNeed', ready: true }, { number: 'C', name: 'Assignments', url: '/intro/assignments', ready: true }, { number: 'D', name: 'Resources', url: '/intro/resources', ready: true }]
 };
 
 var layout = {

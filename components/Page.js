@@ -11,5 +11,16 @@ export default ({ children }) => (
 
     { children }
 
+    <style jsx global>{`
+      a {
+        font-weight: bold;
+        color: rgb(253, 48, 111);
+      }
+
+      li {
+        list-style: none;
+      }
+    `}</style>
+
   </div>
 )

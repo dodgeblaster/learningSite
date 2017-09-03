@@ -22,7 +22,7 @@ var _jsxFileName = '/Users/garyjennings/Desktop/saitcourse/saitsite/components/C
 
 
 var renderLink = function renderLink(chapter, section) {
-    return _react2.default.createElement(_link2.default, { href: { pathname: '/chapter', query: { section: section, chapter: chapter.number } }, __source: {
+    return _react2.default.createElement(_link2.default, { href: { pathname: chapter.url ? chapter.url : '/chapter', query: { section: section, chapter: chapter.number } }, __source: {
             fileName: _jsxFileName,
             lineNumber: 4
         }
