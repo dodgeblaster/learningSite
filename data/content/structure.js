@@ -1,13 +1,13 @@
 const unitsAndMeasurements = {
-    ready: false,
+    ready: true,
     number: '6',
     name: 'Units and Measurements',
-    slideshow: '',
-    notes: '',
+    slideshow: [ { original: '/static/slideshows/01basics/01intro/red07.png' } ],
+    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
     resources: (
-        <div>
-
-        </div>
+        <ul>
+            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
+        </ul>
     ),
     exercise: (
         <div>
@@ -20,7 +20,7 @@ const boxModel = {
     ready: false,
     number: '7',
     name: 'Box Model',
-    slideshow: 'https://docs.google.com/presentation/d/1FXRpCBZ92A5XQkTIbXCcsOCb9t62cdWpBsSzFVWunVk/embed?start=false&loop=false&delayms=3000',
+    slideshow: [ { original: '/static/slideshows/01basics/01intro/red07.png' } ],
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
     exercise: (
         <div>
@@ -75,7 +75,7 @@ const images = {
     ready: false,
     number: '10',
     name: 'Images',
-    slideshow: 'https://docs.google.com/presentation/d/1sIaVn2izbxuHh74Xq7kCQ0S4EsgGSxcCgDklrwYSBZI/embed?start=false&loop=false&delayms=3000',
+    slideshow: [ { original: '/static/slideshows/01basics/01intro/red07.png' } ],
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/6-html-images.html',
     resources: (
         <ul>
