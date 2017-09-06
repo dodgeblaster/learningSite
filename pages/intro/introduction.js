@@ -37,7 +37,7 @@ export default ({url}) => {
                 </Section>
 
                 <Section title={'What makes up your grade'}>
-                    <p>40% - Three Assignments (13.33% each)<br/>
+                    <p>40% - Three Assignments (13% each)<br/>
                        40% - Final Project<br/>
                        20% - Attendence</p>
                 </Section>

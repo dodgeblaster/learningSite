@@ -33,24 +33,7 @@ export default ({url}) => {
     const chapters      = sections.find(x => x.name === url.query.section).chapters
     const chapter       = chapters.find(x => x.number == url.query.chapter)
 
-    const images = [
-      { original: '/static/slideshows/01basics/01intro/red01.png' },
-      { original: '/static/slideshows/01basics/01intro/red02.png' },
-      { original: '/static/slideshows/01basics/01intro/red03.png' },
-      { original: '/static/slideshows/01basics/01intro/red04.png' },
-      { original: '/static/slideshows/01basics/01intro/red05.png' },
-      { original: '/static/slideshows/01basics/01intro/red06.png' },
-      { original: '/static/slideshows/01basics/01intro/red07.png' },
-      { original: '/static/slideshows/01basics/01intro/red08.png' },
-      { original: '/static/slideshows/01basics/01intro/red09.png' },
-      { original: '/static/slideshows/01basics/01intro/red10.png' },
-      { original: '/static/slideshows/01basics/01intro/red11.png' },
-      { original: '/static/slideshows/01basics/01intro/red12.png' },
-      { original: '/static/slideshows/01basics/01intro/red13.png' },
-      { original: '/static/slideshows/01basics/01intro/red14.png' },
-      { original: '/static/slideshows/01basics/01intro/red15.png' },
-      { original: '/static/slideshows/01basics/01intro/red16.png' }
-    ]
+
 
     return (
     <Page>

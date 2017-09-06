@@ -86,14 +86,14 @@ const cssBasics = {
     ],
     code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/03%20CSS%20Intro',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/3-css-basics.html',
-    resources: (
-        <div>
-            <strong>CSS Reset URL</strong>
-            <p>Search 'css reset cdn' in google, and look for a CDN site hosting it</p>
-            <strong>Base CSS URL</strong>
-            <p>https://rawgit.com/dodgeblaster/basecss/master/base.css</p>
-        </div>
-    ),
+    // resources: (
+    //     <div>
+    //         <strong>CSS Reset URL</strong>
+    //         <p>Search 'css reset cdn' in google, and look for a CDN site hosting it</p>
+    //         <strong>Base CSS URL</strong>
+    //         <p>https://rawgit.com/dodgeblaster/basecss/master/base.css</p>
+    //     </div>
+    // ),
     exercise: (
         <div>
             <p>Make a 3 page project. Each page will have some text inside.</p>
@@ -102,8 +102,6 @@ const cssBasics = {
                 <li>1 page should color the text using internal styles.</li>
                 <li>1 page should color the text using the proper and recommended way, external styles.</li>
             </ul>
-            <br/>
-            <p>All 3 pages should include reset.css and base.css in the header section</p>
         </div>
     )
 }
@@ -147,7 +145,15 @@ const cssColor = {
     ready: true,
     number: '5',
     name: 'CSS Color',
-    slideshow: [ { original: '/static/slideshows/01basics/01intro/red07.png' } ],
+    slideshow: [
+          { original: '/static/slideshows/01basics/05csscolor/red01.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red02.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red03.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red04.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red05.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red06.png' },
+          { original: '/static/slideshows/01basics/05csscolor/red07.png' }
+    ],
     code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/05%20CSS%20Color',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/4-css-font-and-color.html',
     resources: (
