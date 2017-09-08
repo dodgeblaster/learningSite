@@ -10,7 +10,7 @@ const unitsAndMeasurements = {
           { original: '/static/slideshows/02structure/06/06-05.png' },
           { original: '/static/slideshows/02structure/06/06-06.png' }
     ],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
+    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/4-css-font-and-color.html',
     resources: (
         <ul>
             <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
@@ -49,12 +49,6 @@ const displayType = {
           { original: '/static/slideshows/02structure/07/07-14.png' },
           { original: '/static/slideshows/02structure/07/07-15.png' }
     ],
-    notes: '',
-    resources: (
-        <div>
-
-        </div>
-    ),
     exercise: (
         <div>
             <p>Make a new project with an index.html file.<br/>
@@ -88,6 +82,7 @@ const boxModel = {
           { original: '/static/slideshows/02structure/08/08-14.png' }
     ],
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
+    reading: 'Chapter 13',
     exercise: (
         <div>
             <p>Make a new project with an index.html file.

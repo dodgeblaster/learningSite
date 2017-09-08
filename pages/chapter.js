@@ -11,14 +11,18 @@ const renderSlideshow   = x => x.slideshow  ? <SlideShow url={x.slideshow}/> : '
 const renderNotes       = x => x.notes      ? <Section title={'Notes'}><a href={ x.notes }>GitBook Notes</a></Section> : ''
 const renderCode        = x => x.code       ? <Section title={'Code'}><a href={ x.code }>GitHub Code</a></Section> : ''
 const renderResources   = x => x.resources  ? <Section title={'Resources'}>{ x.resources }</Section> : ''
+const renderReading     = x => x.reading    ? <Section title={'Reading'}>{ x.reading }</Section> : ''
 const renderExercise    = x => x.exercise   ? <Section title={'Exercise'}>{ x.exercise }</Section> : ''
 
 const renderContent = chapter => (
     <div>
-
+        <Sa
+            images={chapter.slideshow}
+        />
         { renderNotes(chapter) }
         { renderCode(chapter) }
         { renderResources(chapter) }
+        { renderReading(chapter) }
         { renderExercise(chapter) }
     </div>
 )
@@ -49,9 +53,7 @@ export default ({url}) => {
                     section={sectionName}
                     chapter={`${chapter.number}. ${chapter.name}`}
                 />
-                <Sa
-                    images={chapter.slideshow}
-                />
+
                 { chapter.ready ? renderContent(chapter) : renderNotReadyYet() }
             </div>
         </div>

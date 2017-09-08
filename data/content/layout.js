@@ -24,11 +24,11 @@ const inlineMethod = {
     exercise: (
         <div>
             <p>
-                Download Inline Method 3 Columns project <a href='#'>here</a>.
+                Use '01 Inline Method 3 Columns' project in course code.
                 Add a third column so that it matches <a href='/static/exercises/03/01.png'>this</a> picture.
             </p>
             <p>
-                Download Inline Method 4 Columns project <a href='#'>here</a>.
+                Use '02 Inline Method 4 Columns' project in course code.
                 Add a third column so that it matches <a href='/static/exercises/03/02.png'>this</a> picture.
             </p>
 
@@ -71,7 +71,7 @@ const floatMethod = {
         { original: '/static/slideshows/03layout/11/11-28.png' }
     ],
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/7-css-layout.html',
-    resources: (
+    reading: (
         <ul>
             <li><a href='http://www.hongkiat.com/blog/css-floats/'>Article on how Float works</a></li>
             <li><a href='https://designshack.net/articles/css/everything-you-never-knew-about-css-floats/'>9 Rules of Float</a></li>
@@ -80,11 +80,11 @@ const floatMethod = {
     exercise: (
         <div>
             <p>
-                Download Inline Method 3 Columns project <a href='#'>here</a>.
+                Use '03 Float Method 3 Columns' project in course code.
                 Add a third column so that it matches <a href='/static/exercises/03/01.png'>this</a> picture.
             </p>
             <p>
-                Download Inline Method 4 Columns project <a href='#'>here</a>.
+                Use '04 Float Method 4 Columns' project in course code.
                 Add a third column so that it matches <a href='/static/exercises/03/02.png'>this</a> picture.
             </p>
 
@@ -117,7 +117,8 @@ const mediaQueries = {
     // ),
     exercise: (
         <div>
-        <p>Take either the Inline Method project or Float project, and apply medium and small media queries to the four columns so they properly fit at all sizes</p>
+        <p>Take either the Inline Method project or Float project, and apply medium and small media queries to the four columns so they properly fit at all sizes.
+        For example, at medium width there could be 2 divs instead of 4 across, and at small width every div takes up 100%.</p>
 
         </div>
     )
@@ -176,7 +177,13 @@ const floatGrid = {
     ),
     exercise: (
         <div>
-
+            <p>
+                Use '05 Grid System' project in course code.
+                Apply the grid system to the HTML so that:<br/>
+                - At large width, it looks like <a href='/static/exercises/03/grid/large.png'>this</a><br/>
+                - At medium width, it looks like <a href='/static/exercises/03/grid/medium.png'>this</a><br/>
+                - At small width, it looks like <a href='/static/exercises/03/grid/small.png'>this</a>
+            </p>
         </div>
     )
 }

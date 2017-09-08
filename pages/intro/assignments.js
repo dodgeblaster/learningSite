@@ -71,7 +71,18 @@ export default ({url}) => {
                 </Section>
 
                 <Section title={'3. Convert a mockup into an HTML file - 13%'}>
-                    <p>Details coming soon</p>
+
+                    <p>Turn this mockup into an html page. The font is sans-serif, and the colors used in this mock up are: #b22222, #ddd, and #fff.</p>
+
+                    <p>What I will be giving marks for:</p>
+                    <ul>
+                        <li>1 - Is there a table with the correct number of cells with the correct data inside from the mockup</li>
+                        <li>2 - Do the colors match the mockup</li>
+                        <li>3 - Does the font match the mockup</li>
+                        <li>4 - Does the table have a box shadow</li>
+                    </ul>
+
+                    <p><a href='/static/exercises/04/tablemock.png'>Click here to see the mock.</a></p>
                 </Section>
 
                 <Section title={'4. Four Page Website - 40%'}>

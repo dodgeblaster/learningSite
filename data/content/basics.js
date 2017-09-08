@@ -20,14 +20,14 @@ const htmlBasics = {
           { original: '/static/slideshows/01basics/01intro/red15.png' },
           { original: '/static/slideshows/01basics/01intro/red16.png' }
     ],
-    code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/01%20HTML%20Intro',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/1-html-basics.html',
+    reading: 'Chapter 1',
     exercise: (
         <div>
             <p>
                 Make a starter file. We will be adding to this starter file
                 as go along in this course. Make sure its named
-                <strong>index.html</strong>
+                <strong> index.html</strong>
             </p>
         </div>
     )
@@ -45,8 +45,8 @@ const htmlElements = {
           { original: '/static/slideshows/01basics/02elements/red05.png' },
           { original: '/static/slideshows/01basics/02elements/red06.png' }
     ],
-    code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/02%20HTML%20Elements',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/2-html-elements.html',
+    reading: 'Chapter 2, 3, and 4',
     exercise: (
         <div>
             <p>
@@ -69,6 +69,7 @@ const cssBasics = {
           { original: '/static/slideshows/01basics/03cssbasics/red04.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red05.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red06.png' },
+          { original: '/static/slideshows/01basics/03cssbasics/03-062.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red07.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red08.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red09.png' },
@@ -84,16 +85,13 @@ const cssBasics = {
           { original: '/static/slideshows/01basics/03cssbasics/red19.png' },
           { original: '/static/slideshows/01basics/03cssbasics/red20.png' },
     ],
-    code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/03%20CSS%20Intro',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/3-css-basics.html',
-    // resources: (
-    //     <div>
-    //         <strong>CSS Reset URL</strong>
-    //         <p>Search 'css reset cdn' in google, and look for a CDN site hosting it</p>
-    //         <strong>Base CSS URL</strong>
-    //         <p>https://rawgit.com/dodgeblaster/basecss/master/base.css</p>
-    //     </div>
-    // ),
+    reading: 'Chapter 10',
+    resources: (
+        <div>
+            <a href='https://cdnjs.com/libraries/normalize'>CSS Reset</a>
+        </div>
+    ),
     exercise: (
         <div>
             <p>Make a 3 page project. Each page will have some text inside.</p>
@@ -120,7 +118,6 @@ const cssFont = {
           { original: '/static/slideshows/01basics/04cssfonts/red07.png' },
           { original: '/static/slideshows/01basics/04cssfonts/red08.png' }
     ],
-    code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/04%20CSS%20Font',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/4-css-font-and-color.html',
     resources: (
         <ul>
@@ -154,8 +151,8 @@ const cssColor = {
           { original: '/static/slideshows/01basics/05csscolor/red06.png' },
           { original: '/static/slideshows/01basics/05csscolor/red07.png' }
     ],
-    code: 'https://github.com/dodgeblaster/html-basics/tree/master/01%20Basics/05%20CSS%20Color',
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/4-css-font-and-color.html',
+    reading: 'Chapter 11 and 12',
     resources: (
         <ul>
             <li><a href="https://color.adobe.com/create/color-wheel/?copy=true&base=1&rule=Monochromatic&selected=1&name=Copy%20of%20Flat%20UI&mode=rgb&rgbvalues=0.0673647392217112,0.2640767183182476,0.45098039215686275,0.14205173270665186,0.5568574277580438,0.9509803921568627,0.43101720645640573,0.7018354343723179,0.9591503267973855,0.20265885686877005,0.3299941735719928,0.45098039215686275,0.11217693531267557,0.43974514398212516,0.7509803921568625&swatchOrder=0,2,1,3,4">Kuler</a></li>

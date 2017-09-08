@@ -35,7 +35,7 @@ const cssWeight = {
 }
 
 const positioning = {
-    ready: true,
+    ready: false,
     number: '24',
     name: 'Positioning',
     slideshow: [

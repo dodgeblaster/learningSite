@@ -12,6 +12,7 @@ const intro = {
         { number: 'B', name: 'Things We Need',  url: '/intro/thingsWeNeed', ready: true },
         { number: 'C', name: 'Assignments',     url: '/intro/assignments', ready: true },
         { number: 'D', name: 'Resources',       url: '/intro/resources', ready: true },
+        { number: 'E', name: 'Extra',           url: '/intro/extra', ready: true },
     ]
 }
 
@@ -29,9 +30,9 @@ const deployment = {
     name: 'Deployment',
     color: '#3ECC94',
     chapters: [
-        { number: '29', name: 'Optimization',   ready: false },
-        { number: '30', name: 'Accessibility',  ready: false },
-        { number: '31', name: 'Hosting',        ready: false },
+        // { number: '29', name: 'Optimization',   ready: false },
+        // { number: '30', name: 'Accessibility',  ready: false },
+        { number: '29', name: 'Hosting',        ready: false },
 
     ]
 }

@@ -21,15 +21,9 @@ const navigation = {
         { original: '/static/slideshows/04components/15/15-16.png' },
         { original: '/static/slideshows/04components/15/15-17.png' },
     ],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
     exercise: (
         <div>
-
+            <p>No exercise for this one.</p>
         </div>
     )
 }
@@ -57,15 +51,9 @@ const hero = {
         { original: '/static/slideshows/04components/16/16-16.png' },
         { original: '/static/slideshows/04components/16/16-17.png' },
     ],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
     exercise: (
         <div>
-
+            <p>No exercise for this one.</p>
         </div>
     )
 }
@@ -95,15 +83,9 @@ const footer = {
         { original: '/static/slideshows/04components/17/17-18.png' },
         { original: '/static/slideshows/04components/17/17-19.png' }
     ],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    // resources: (
-    //     <ul>
-    //         <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-    //     </ul>
-    // ),
     exercise: (
         <div>
-
+            <p>No exercise for this one.</p>
         </div>
     )
 }
@@ -112,15 +94,29 @@ const homePage = {
     ready: false,
     number: '18',
     name: 'Home Page',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
+    // slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
     exercise: (
         <div>
+        <strong>Assignment #2 Make a Home Page - 13%</strong>
+            <p>In this assignment, we will make use of all the layout techniques we learned
+            about in the layout section and the practical sections. Your job is to make a home
+            page that has the following:</p>
+
+            <p>
+            1. A header. It should have a font awesome icon as the 'company logo', and 4 navigation links (they dont need to be hooked up to anything)<br/>
+            2. A hero section with an unsplash pic as the background. (use a gradient if you want to go the extra mile)<br/>
+            3. A footer with font awesome social media icon links<br/>
+            4. Everything should be responsive
+            </p>
+
+            <p>
+            What I will be giving marks for:<br/>
+            1 - Is the HTML and CSS properly indented<br/>
+            2 - Can I see a hamburger menu at some point when I size down the browser width to phone width<br/>
+            3 - Is the CSS files, google fonts, img file properly linked<br/>
+            4 - Is there social media icons in the footer<br/>
+            5 - Is there a hero section with an image
+            </p>
 
         </div>
     )
@@ -131,15 +127,9 @@ const aboutPage = {
     number: '19',
     name: 'About Page',
     slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
     exercise: (
         <div>
-
+            <p>No exercise for this one.</p>
         </div>
     )
 }
@@ -149,15 +139,20 @@ const pricePage = {
     number: '20',
     name: 'Price Page',
     slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
     exercise: (
         <div>
+        <strong>Assignment #3 Convert a mockup into an HTML file - 13%</strong>
+        <p>Turn this mockup into an html page. The font is sans-serif, and the colors used in this mock up are: #b22222, #ddd, and #fff.</p>
 
+        <p>What I will be giving marks for:</p>
+        <ul>
+            <li>1 - Is there a table with the correct number of cells with the correct data inside from the mockup</li>
+            <li>2 - Do the colors match the mockup</li>
+            <li>3 - Does the font match the mockup</li>
+            <li>4 - Does the table have a box shadow</li>
+        </ul>
+
+        <p><a href='/static/exercises/04/tablemock.png'>Click here to see the mock.</a></p>
         </div>
     )
 }
@@ -167,14 +162,10 @@ const contactPage = {
     number: '21',
     name: 'Contact Page',
     slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
     exercise: (
         <div>
+            <strong>Assignment #3 Convert Mockup - 13%</strong>
+            <p>Convert a mockup into an HTML file. Click <a href='#'>here</a> for the mock.</p>
 
         </div>
     )
