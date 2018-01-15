@@ -6,7 +6,6 @@ import Section      from '../../components/ChapterPage/Section.js'
 import sections     from '../../data/sections.js'
 
 
-
 export default ({url}) => {
     return (
     <Page>
@@ -29,16 +28,13 @@ export default ({url}) => {
                         and feel that you are already familiar with HTML and CSS basics, I have
                         some extra curricular assignments for you. These assignments are not for marks,
                         they are meant to give everyone the oppurtunity to challenge themselves.
-                        If you are interested in tackling any of these assignments, talk to me. 
+                        If you are interested in tackling any of these assignments, talk to me.
                     </p>
                     <ul>
-                        <li><a href="#">JavaScript</a></li>
-                        <li><a href="#">CSS</a></li>
+                        <li><a href="https://dodgeblaster.gitbooks.io/sait-course/content/extra---javascript.html">JavaScript</a></li>
+                        <li><a href="https://dodgeblaster.gitbooks.io/sait-course/content/extra---css.html">CSS</a></li>
                     </ul>
                 </Section>
-
-
-
 
             </div>
         </div>

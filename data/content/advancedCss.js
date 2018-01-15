@@ -17,14 +17,13 @@ const advancedSelectors = {
 }
 
 const cssWeight = {
-    ready: false,
+    ready: true,
     number: '23',
     name: 'CSS Weight',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
+
     resources: (
         <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
+            <li><a href='https://s3.amazonaws.com/htmlbasicsresources/cssweight.mp4'>CSS Weight Video</a></li>
         </ul>
     ),
     exercise: (
@@ -35,44 +34,29 @@ const cssWeight = {
 }
 
 const positioning = {
-    ready: false,
+    ready: true,
     number: '24',
     name: 'Positioning',
-    slideshow: [
-          { original: '/static/slideshows/02structure/06/06-01.png' },
-          { original: '/static/slideshows/02structure/06/06-02.png' },
-          { original: '/static/slideshows/02structure/06/06-03.png' },
-          { original: '/static/slideshows/02structure/06/06-04.png' },
-          { original: '/static/slideshows/02structure/06/06-05.png' },
-          { original: '/static/slideshows/02structure/06/06-06.png' }
-    ],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
-    resources: (
-        <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
+
     exercise: (
         <div>
-
+            <p>Recreate <a href='/static/exercises/05/position.png'>this mock</a>. The image should already be setup for you in the card-image class in the starter file. Hint, the box underneath the image is not position static.</p>
         </div>
     )
 }
 
 const animation = {
-    ready: false,
+    ready: true,
     number: '25',
     name: 'Animation',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
     resources: (
         <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
+            <li><a href='https://tympanus.net/Development/HoverEffectIdeas/'>Hover Animation Examples</a></li>
         </ul>
     ),
     exercise: (
         <div>
-
+            <p>Recreate <a href='/static/exercises/05/animation.png'>this mock</a>.</p>
         </div>
     )
 }

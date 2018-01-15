@@ -3,6 +3,8 @@ import structure from './content/structure.js'
 import layout from './content/layout.js'
 import components from './content/components.js'
 import advancedCss from './content/advancedCss.js'
+import hosting from './content/hosting.js'
+import sass from './content/sass.js'
 
 const intro = {
     name: 'Intro',
@@ -47,5 +49,6 @@ export default [
     components,
     advancedCss,
     practical,
-    deployment
+    hosting,
+    sass
 ]

@@ -45,6 +45,7 @@ export default ({url}) => {
                     4 - Is the font easy to read<br/>
                     5 - Are the colors put together in such a way that the text is easy to read
                     </p>
+                    <strong style={{background: '#f04f69', padding: '10px 20px', color: 'white', marginTop: 20, display: 'inline-block'}}>Due: Thursday, Jan 18 @ 3:30PM</strong>
                 </Section>
 
 
@@ -68,6 +69,7 @@ export default ({url}) => {
                     4 - Is there social media icons in the footer<br/>
                     5 - Is there a hero section with an image
                     </p>
+                    <strong style={{background: '#f04f69', padding: '10px 20px', color: 'white', marginTop: 20, display: 'inline-block'}}>Due: Thursday, Jan 25 @ 3:30PM</strong>
                 </Section>
 
                 <Section title={'3. Convert a mockup into an HTML file - 13%'}>
@@ -83,6 +85,7 @@ export default ({url}) => {
                     </ul>
 
                     <p><a href='/static/exercises/04/tablemock.png'>Click here to see the mock.</a></p>
+                    <strong style={{background: '#f04f69', padding: '10px 20px', color: 'white', marginTop: 20, display: 'inline-block'}}>Due: Thursday, Jan 25 @ 3:30PM</strong>
                 </Section>
 
                 <Section title={'4. Four Page Website - 40%'}>
@@ -102,8 +105,8 @@ export default ({url}) => {
                     - Site should be responsive<br/>
                     - Site should have a mobile menu
                     </p>
+                    <strong style={{background: '#f04f69', padding: '10px 20px', color: 'white', marginTop: 20, display: 'inline-block'}}>Due: Friday, Feb 2 @ 3:30PM</strong>
                 </Section>
-
 
 
 

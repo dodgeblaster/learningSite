@@ -43,7 +43,7 @@ export default ({url}) => {
                     <p>
                     Each chapter will let you know what code you need for the topic, but if you would like
                     to see all the code, you can see it all here:
-                    <a style={style.link} href='https://github.com/dodgeblaster/html-basics'>Course Code</a>
+                    <a style={style.link} href='https://github.com/dodgeblaster/HtmlCourse'>Course Code</a>
                     </p>
                 </Section>
             </div>

@@ -114,8 +114,8 @@ const images = {
     exercise: (
         <div>
             <p>
-                For this excercise, we are going to make a landing page. This should an image from unsplash as the background.
-                The image should resize itself when you adjust the width fo the browser window and stay cetnered. This page should have
+                For this excercise, we are going to make a landing page. This should use an image from unsplash for the background.
+                The image should resize itself when you adjust the width of the browser window and stay centered. This page should have
                 an h1 tag and some lorem ipsum text, along with an anchor tag that looks like a button.
                 Click <a href="/static/exercises/02/04.png">here</a> for reference.
             </p>

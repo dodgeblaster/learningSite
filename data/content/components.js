@@ -91,7 +91,7 @@ const footer = {
 }
 
 const homePage = {
-    ready: false,
+    ready: true,
     number: '18',
     name: 'Home Page',
     // slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
@@ -135,10 +135,9 @@ const aboutPage = {
 }
 
 const pricePage = {
-    ready: false,
+    ready: true,
     number: '20',
     name: 'Price Page',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
     exercise: (
         <div>
         <strong>Assignment #3 Convert a mockup into an HTML file - 13%</strong>
@@ -158,15 +157,15 @@ const pricePage = {
 }
 
 const contactPage = {
-    ready: false,
+    ready: true,
     number: '21',
     name: 'Contact Page',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    exercise: (
+    resources: (
         <div>
-            <strong>Assignment #3 Convert Mockup - 13%</strong>
-            <p>Convert a mockup into an HTML file. Click <a href='#'>here</a> for the mock.</p>
-
+            <ul>
+                <li><a href='https://tympanus.net/Development/TextInputEffects/'>Input Inspiration</a></li>
+                <li><a href='https://tympanus.net/codrops/2015/03/18/inspiration-text-input-effects-2/'>More Input Inspiration</a></li>
+            </ul>
         </div>
     )
 }

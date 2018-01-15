@@ -22,6 +22,15 @@ const htmlBasics = {
     ],
     notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/1-html-basics.html',
     reading: 'Chapter 1',
+    resources: (
+        <div>
+        <ul>
+            <li><a href='https://www.youtube.com/watch?v=1UStbvRnwmQ'>How the Internet Works Part 1</a></li>
+            <li><a href='https://www.youtube.com/watch?v=1CsPHKJWiw0&t=41s'>How the Internet Works Part 2</a></li>
+            <li><a href='https://www.youtube.com/watch?v=eYkXD_cGUYU'>How the Internet Works Part 3</a></li>
+        </ul>
+        </div>
+    ),
     exercise: (
         <div>
             <p>
@@ -159,7 +168,7 @@ const cssColor = {
             <li><a href="https://dribbble.com/">Dribbble</a></li>
             <li><a href="https://www.behance.net">Behance</a></li>
             <li><a href="http://colorsupplyyy.com/">Color Supply</a></li>
-            <li><a href="/static/colorpdf.pdf">Color Example PDF</a></li>
+            <li><a href="https://s3.amazonaws.com/htmlbasicsresources/colorpdf.pdf">Color Example PDF</a></li>
             <li><a href="https://material.io/guidelines/style/color.html#">Material Design Color</a></li>
 
 

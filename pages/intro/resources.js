@@ -72,6 +72,29 @@ export default ({url}) => {
                     </ul>
                 </Section>
 
+                <Section title={'Good things to know'}>
+                    <ul>
+                        <li><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag'>Viewport Meta Tag</a></li>
+                    </ul>
+
+                </Section>
+
+        {/*        <Section title={'Starter Files'}>
+                    <ul>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-01Basics'>01 Basics</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-02Structure'>02 Structure</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-03Layout-01Inline'>03 Layout - 01 Inline Method</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-03Layout-02Float'>03 Layout - 02 Float Method</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-03Layout-03MediaQueries'>03 Layout - 03 Media Queries</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-03Layout-04FloatGrid'>03 Layout - 04 Float Grid</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-04Components'>04 Component</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-05AdvancedCss'>05 Advanced CSS</a></li>
+                        <li><a href='https://github.com/dodgeblaster/mobilemenustarterfile'>Mobile Menu</a></li>
+                        <li><a href='https://github.com/dodgeblaster/starterfiles-AboutPage'>About Page</a></li>
+
+                    </ul>
+                </Section>
+*/}
 
             </div>
         </div>

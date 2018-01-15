@@ -24,11 +24,11 @@ const inlineMethod = {
     exercise: (
         <div>
             <p>
-                Use '01 Inline Method 3 Columns' project in course code.
+                Use '3 Columns' in the '01 Inline Method Folder' from your downloaded starter code.
                 Add a third column so that it matches <a href='/static/exercises/03/01.png'>this</a> picture.
             </p>
             <p>
-                Use '02 Inline Method 4 Columns' project in course code.
+                Use '4 Columns' in the '01 Inline Method Folder' from your downloaded starter code.
                 Add a third column so that it matches <a href='/static/exercises/03/02.png'>this</a> picture.
             </p>
 
@@ -77,14 +77,15 @@ const floatMethod = {
             <li><a href='https://designshack.net/articles/css/everything-you-never-knew-about-css-floats/'>9 Rules of Float</a></li>
         </ul>
     ),
+
     exercise: (
         <div>
             <p>
-                Use '03 Float Method 3 Columns' project in course code.
+                Use '3 Columns' in the '02 Float Method Folder' from your downloaded starter code.
                 Add a third column so that it matches <a href='/static/exercises/03/01.png'>this</a> picture.
             </p>
             <p>
-                Use '04 Float Method 4 Columns' project in course code.
+                Use '4 Columns' in the '02 Float Method Folder' from your downloaded starter code.
                 Add a third column so that it matches <a href='/static/exercises/03/02.png'>this</a> picture.
             </p>
 
@@ -189,20 +190,15 @@ const floatGrid = {
 }
 
 const flexBox = {
-    ready: false,
+    ready: true,
     number: '14',
     name: 'FlexBox',
-    slideshow: [ { original: '/static/slideshows/02structure/06/06-01.png' },],
-    notes: 'https://dodgeblaster.gitbooks.io/sait-course/content/5-box-model.html',
     resources: (
         <ul>
-            <li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/length'>MDN Docs on Length</a></li>
-        </ul>
-    ),
-    exercise: (
-        <div>
-
-        </div>
+            <p>Coming soon...</p>
+         {/*   <li><a href='https://s3.amazonaws.com/htmlbasicsresources/flex1.mp4'>FlexBox 1</a></li>
+            <li><a href='https://s3.amazonaws.com/htmlbasicsresources/flex2.mp4'>FlexBox 2</a></li>
+        */}</ul>
     )
 }
 
