@@ -109,12 +109,16 @@ const images = {
     resources: (
         <ul>
             <li><a href="https://material.io/guidelines/style/imagery.html#imagery-ui-integration">Google Guidelines on Images</a></li>
+            <li><a href='https://image-test-nmazhqdcqx.now.sh/'>Img Example Full Size</a></li>
+            <li><a href='https://image-test-nmazhqdcqx.now.sh/'>Img Example Sized Down</a></li>
+            <li><a href='https://tinypng.com/'>Image Compressor</a></li>
+            <li><a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN Responseive Images</a></li>
         </ul>
     ),
     exercise: (
         <div>
             <p>
-                For this excercise, we are going to make a landing page. This should use an image from unsplash for the background.
+                For this exercise, we are going to make a landing page. This should use an image from unsplash for the background.
                 The image should resize itself when you adjust the width of the browser window and stay centered. This page should have
                 an h1 tag and some lorem ipsum text, along with an anchor tag that looks like a button.
                 Click <a href="/static/exercises/02/04.png">here</a> for reference.

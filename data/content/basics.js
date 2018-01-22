@@ -141,7 +141,11 @@ const cssFont = {
     exercise: (
         <div>
             <p>
-                None for this one.
+                Make a resources folder for yourself (ideally its linked to one drive or google drive).
+                Make a font pairings file.
+                Write down 3 font pairings that you can see yourself using in future projects.
+                For inspiration, look at websites you think are designed well, use dev tools and figure out what 
+                fonts they are using and write them down. 
             </p>
         </div>
     )

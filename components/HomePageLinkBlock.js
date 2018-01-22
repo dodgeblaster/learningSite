@@ -71,13 +71,18 @@ const renderIntro = ({ name, color, chapters }) => {
     )
 }
 
-const renderDay = (title, sections) => {
+const renderDay = (title, day, sections) => {
+
+    const today = new Date()
+    const dd = today.getDate()
+
     const containerStyles = {
         padding: 20,
         boxShadow: '10px 10px 42px -23px rgba(0,0,0,0.75)',
         background: 'rgb(62, 204, 147)',
         fontFamily: 'Lato, sans-serif',
         marginBottom: '20px',
+        opacity: dd > day ? '0.2' : '1'
 
     }
 
@@ -119,30 +124,31 @@ export default ({ sections }) => {
                     />
                 )) }
             <hr/>
-                { renderDay('Jan 15, Monday', [
+                { renderDay('Jan 15, Monday', 15, [
                     '1. HTML Basics',
                     '2. HTML Elements',
                     '3. CSS Basics'
                 ]) }
 
-                { renderDay('Jan 16, Tuesday', [
+                { renderDay('Jan 16, Tuesday', 16, [
                     '4. CSS Font',
                     '5. CSS Color',
                     'Assignment #1'
                 ]) }
 
-                { renderDay('Jan 17, Wednesday', [
+                { renderDay('Jan 17, Wednesday', 17, [
                     '6. Units and Measurement',
                     '7. Display Type',
                     '8. Box Model'
                 ]) }
 
-                { renderDay('Jan 18, Thursday', [
+                { renderDay('Jan 18, Thursday', 18, [
                     '9. Images',
-                    '10. Inline Method'
+                    '10. Inline Method',
+                    '11. Float Method',
                 ]) }
 
-                { renderDay('Jan 19, Friday', [
+                { renderDay('Jan 19, Friday', 19, [
                     '11. Float Method',
                     '12. Media Queries',
                     '13. Float Grid'
@@ -152,36 +158,40 @@ export default ({ sections }) => {
                 <br/>
                 <br/>
 
-                { renderDay('Jan 22, Monday', [
-                    '15. Navigation',
-                    '16. Hero',
+                { renderDay('Jan 22, Monday', 22, [
+                    '29. Github',
+                    'Intro to Twitter Bootstrap',
+                    '15. BeatsByDre Navigation',
+                    '16. BeatsByDre Hero',
                     'Assignment #2'
                 ]) }
 
-                { renderDay('Jan 23, Tuesday', [
-                    '17. Footer',
+                { renderDay('Jan 23, Tuesday', 23, [
+                    '17. BeatsByDre Footer',
                     '20. HTML Tables',
+                    '21. HTML Forms',
                     'Assignment #3'
                 ]) }
 
-                { renderDay('Jan 24, Wednesday', [
-                    '21. HTML Forms',
+                { renderDay('Jan 24, Wednesday', 24, [
                     '22. Advanced Selectors',
                     '23. CSS Weight',
                     '24. CSS Positioning',
-                    '25. CSS Animations'
-                ]) }
-
-                { renderDay('Jan 25, Thursday', [
-                    '19. About Page',
-                    'JS Intro and Mobile Menu',
-                    '26. CSS Frameworks',
+                    'BeatsByDre Featured Product',
+                    '25. CSS Animations',
                     'Assignment #4'
                 ]) }
 
-                { renderDay('Jan 26, Friday', [
+                { renderDay('Jan 25, Thursday', 25, [
+                    '14. Flexbox',          
+                    'Airbnb Site with Flexbox',
+                    'Assignment #4'
+                ]) }
+
+                { renderDay('Jan 26, Friday', 26, [
                     '29. Hosting',
-                    '14. Flexbox',
+                    'JS Intro and Mobile Menu',
+                    '19. About Page',
                     'Assignment #4'
                 ]) }
 

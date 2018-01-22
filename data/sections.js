@@ -23,7 +23,15 @@ const practical = {
     color: '#3ECC94',
     chapters: [
         { number: '27', name: 'Remake facebook.design',   ready: false },
-        { number: '28', name: 'Remake beats.com',           ready: false },
+        { number: '28', name: 'Remake beatsbydre.com', ready: true,
+            resources: (
+                <ul>
+                    <li><a href='https://www.beatsbydre.com/ca'>Beats Website</a></li>
+                    <li><a href='https://s3.amazonaws.com/htmlbasicsresources/beats-assets.zip'>Project Assets</a></li>
+                </ul>
+
+            )
+        },
 
     ]
 }
